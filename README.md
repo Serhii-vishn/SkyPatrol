@@ -4,23 +4,34 @@ This program demonstrates a multi-object tracker utilizing computer vision techn
 
 This project was created in addition to the scientific work that will be presented as part of the [AI competition](https://aic.kpi.ua)
 
-### Features:
+## Features:
+
 - **Object Selection:** Users can select multiple objects of interest within the video stream using bounding boxes.
 - **Real-Time Tracking:** The selected objects are tracked in real-time as the video plays.
 - **Adaptive Tracking Algorithm:** The program employs the CSRT (Discriminative Correlation Filter with Channel and Spatial Reliability) algorithm for robust object tracking.
 
-### Instructions:
+## Instructions:
+
 1. Run the program with the specified video file (e.g., `test2.mp4`).
 2. Select objects of interest by drawing bounding boxes around them.
 3. Press any key to select the next object or press 'Q' to start tracking.
 4. Objects will be tracked in real-time as the video plays.
 5. Press 'Esc' to exit the program.
 
-### Requirements:
+## Requirements:
+
 - Python 3.x
 - OpenCV (cv2) library
 
 ### Usage:
 ```bash
 python your_program_name.py
+```
 
+## Contributing
+
+Contributions to the project are welcome. If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - [MIT License](LICENSE.txt).
